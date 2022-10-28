@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formation</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/14273d579a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-light">
+    <header class="py-4">
+      <nav class="navbar navbar-expand-md fixed-top navbar-light bg-warning">
+        <a
+          href="./home.html"
+          class="btn bg-danger text-white position-fixed ms-2"
+          data-bs-toggle="tooltip"
+          data-bs-placement="right"
+          title="Ne pas inclure dans l'intégration"
+          >Retour</a
+        >
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">
+            <span class="bg-primary bg-gradient p-1 rounded-3 text-light"
+              >Ma</span
+            >
+            Formation
+          </a>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="chercher"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  chercher
+                </button>
+              </form>
+            </div>
+          </nav>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./descreption.html">Description</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./duree.html">Durée</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div  id="home" class=" d-flex justify-content-center">
+        <div class="spinner-grow text-muted"></div>
+        <div class="spinner-grow text-primary"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-info"></div>
+        <div class="spinner-grow text-warning"></div>
+        <div class="spinner-grow text-danger"></div>
+        <div class="spinner-grow text-secondary"></div>
+        <div class="spinner-grow text-dark"></div>
+        <div class="spinner-grow text-light"></div>
+      </div>
+  <section id="duree" class="py-3">
+    <div class="container mt-3">
+        <h2 class="text-primary">Durée de la formation</h2>
+        <p>The .table-dark class adds a black background to the table:</p> 
+    <table class="table table-dark align-items-center">
+        <thead>
+          <tr>
+            <th>Nom de formtion</th>
+            <th>Durée</th>
+            <th>Début</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Langues</td>
+            <td>70 heures</td>
+            <td>10 septembre</td>
+          </tr>
+          <tr>
+            <td>Développement web</td>
+            <td>140 heures</td>
+            <td>25 septembre</td>
+          </tr>
+          <tr>
+            <td>Bureautique</td>
+            <td>40 heures</td>
+            <td>10 octobre</td>
+          </tr>
+          <tr>
+            <td>Sécurité informatique</td>
+            <td>20 heures</td>
+            <td>20 octobre</td>
+          </tr>
+          <tr>
+            <td>Infographie et 3D</td>
+            <td>70 heures</td>
+            <td>30 octobre</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <footer class="border-top">
+    <div class="container py-5 bg-light">
+        <div class="row gy-4 align-items-center">
+            <div class="col-12 col-md-4">
+                <a class="navbar-brand text-dark  fw-bold" href="#">
+                    <span class=" bg-gradient p-1 rounded-3 text-primary">www</span>.maformation.com
+                </a>
+            </div>
+            <div class="col-12 col-md-4 text-md-center">
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <a href="#" class="navbar-brand text-dark  fw-bold"> <span class="bg-gradient p-1 rounded-3 text-primary">@</span>info@maformation.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 text-md-end">
+              
+              <!-- Facebook -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+              <!-- Twitter -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+              <!-- Google -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+              <!-- Github -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i class="fab fa-github"></i></a>
+            
+          </div>
+        </div>
+    </div>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</footer>
+</body>
+</html>
+
+</body>
+</html>
